@@ -697,3 +697,108 @@ footer.site-footer{
     right: 10px;
   }
 }
+
+/* ===== Login Screen Mobile Responsiveness ===== */
+@media (max-width: 768px) {
+  #login-screen {
+    padding: 10px;
+  }
+
+  #login-screen > div {
+    padding: 30px 20px;
+    max-width: 90vw;
+    width: 100%;
+  }
+
+  #login-screen h1 {
+    font-size: 1.2rem;
+  }
+
+  #login-screen h2 {
+    font-size: 1.3rem;
+  }
+
+  #login-screen input {
+    padding: 10px;
+    font-size: 0.9rem;
+  }
+
+  #login-screen button {
+    padding: 10px;
+    font-size: 0.9rem;
+  }
+
+  #login-screen p {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  #login-screen > div {
+    padding: 25px 15px;
+    max-width: 95vw;
+  }
+
+  #login-screen .logo {
+    width: 50px;
+    height: 50px;
+    font-size: 1.3rem;
+  }
+
+  #login-screen h1 {
+    font-size: 1.1rem;
+  }
+
+  #login-screen h2 {
+    font-size: 1.2rem;
+  }
+
+  #login-screen input {
+    padding: 8px;
+    font-size: 0.85rem;
+  }
+
+  #login-screen button {
+    padding: 8px;
+    font-size: 0.85rem;
+  }
+
+  #login-screen p {
+    font-size: 0.75rem;
+  }
+}
+
+@media (max-width: 320px) {
+  #login-screen > div {
+    padding: 20px 10px;
+    max-width: 98vw;
+  }
+
+  #login-screen .logo {
+    width: 45px;
+    height: 45px;
+    font-size: 1.2rem;
+  }
+
+  #login-screen h1 {
+    font-size: 1rem;
+  }
+
+  #login-screen h2 {
+    font-size: 1.1rem;
+  }
+
+  #login-screen input {
+    padding: 6px;
+    font-size: 0.8rem;
+  }
+
+  #login-screen button {
+    padding: 6px;
+    font-size: 0.8rem;
+  }
+
+  #login-screen p {
+    font-size: 0.7rem;
+  }
+}
